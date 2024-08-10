@@ -1,0 +1,65 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: lucida;
+  text-align: center;
+  display: flex;
+  background:url(FB_IMG_1716501459568.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+/*body{
+ /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8)),url(fill.webp);
+  background:url(3d-halloween-background-with-spooky-tree-against-moonlit-sky_1048-8793.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+}
+*/
+input{
+  border: 0;
+  border-radius: 7px;
+  width: 350px;
+  margin-bottom: 20px;
+  height: 45px;
+}
+button{
+  margin: 200px 20px 0px 20px;
+  height: 3rem;
+  width: 5.5rem;
+  color:blue;
+  font-weight: 700;
+  border: 0;
+  border-radius: 7px;
+}
+button:hover{
+  background-color: hotpink;
+  transform: scale(1.2);
+}
+h1{
+  color:white;
+  margin-bottom: 10%;
+}
+.box{
+  border-radius: 10px;
+  backdrop-filter: blur(55px);
+  border: 2px solid white;
+  width:25rem;
+  margin: auto;
+  height: 30rem;
+}
+a{
+  text-decoration: none;
+  color:blue;
+}
+a:hover{
+  color:white;
+}
